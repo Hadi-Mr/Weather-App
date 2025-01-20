@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather</title>
+</head>
+<body class="flex flex-column align-center">
+  <header id="searchbar_container" class="flex justify-center align-center"><input type="search" name="" id="search"></header>
+  <main>
+    <section id="main_top" class="flex flex-row justify-space-around">
+      <div id="icon_temp_container" class="flex flex-column justify-space-around align-center">
+        <p id="city_name">-</p>
+        <img src="icon/icons8-cloud-48.png" alt="">
+        <p id="weather">-</p>
+      </div>
+      <div id="temp_container" class="flex flex-column justify-space-around align-center">
+        <p>Tempeture</p>
+        <p id="temp">-</p>
+      </div>
+      <div id="humidity_container" class="flex flex-column justify-space-around align-center">
+        <p>Humidity</p>
+        <p id="humidity">-</p>
+      </div>
+      <div id="wind_container" class="flex flex-column justify-space-around align-center">
+        <p>Wind</p>
+        <p id="wind">-</p>
+      </div>
+      <div id="visibility_container" class="flex flex-column justify-space-around align-center">
+        <p>Visibility</p>
+        <p id="visibility">-</p>
+      </div>
+    </section>
+    <section id="main_bottom" class="flex flex-column align-center">
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
